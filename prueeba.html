@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | F1Motion</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    .contact-container {
+      max-width: 600px;
+      margin: 60px auto;
+      background: #1a1a1a;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px #e10600;
+    }
+    h1 {
+      text-align: center;
+      color: #e10600;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input, textarea {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      background: #222;
+      color: white;
+    }
+    button {
+      background-color: #e10600;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #ff1a1a;
+    }
+    .social {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .social a {
+      color: #e10600;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contact-container">
+    <h1>Contacto</h1>
+    <p>¿Tenés una consulta, sugerencia o querés colaborar con F1Motion? Dejanos tu mensaje.</p>
+
+    <form id="contactForm">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo electrónico" required>
+      <input type="text" name="asunto" placeholder="Asunto">
+      <textarea name="mensaje" rows="5" placeholder="Tu mensaje..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div class="social">
+      <p>O seguinos en:</p>
+      <a href="#">Instagram</a> |
+      <a href="#">X / Twitter</a> |
+      <a href="#">YouTube</a>
+    </div>
+  </div>
+
+  <script>
+    // Ejemplo básico de alerta al enviar
+    document.getElementById("contactForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      alert("¡Gracias por tu mensaje! Te responderemos pronto.");
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>

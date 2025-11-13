@@ -1,0 +1,96 @@
+html{
+    height: 100%;
+}
+
+div{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    background-image: url(img/bmw.jpg);
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table th{
+    background-color: rgb(1, 1, 1,0.6);
+    text-align: left;
+}
+
+
+div ul li {
+    color: white;
+}
+
+h2, h1{
+    color: white;
+}
+
+
+nav ul{
+    margin-right: 15px;
+    text-align: right;
+    
+}
+
+
+nav ul li{
+    
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    height: 50px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    line-height: 50px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+#columna2 ul li{
+    text-align:center;
+    list-style-type:none;
+    width: 300px
+}
+
+
+#columna3 ul li a img{
+    text-align: center;
+    width: 30px;
+    margin-top: 10px;
+}
+#columna3 ul li{
+    text-align: center;
+    list-style-type: none;
+    float: left;
+    margin-left: 55px;
+    
+}
+
+footer{
+    background-color: #000000;
+    text-align: center;
+    height: 20vh;
+    
+}
+
+footer .columna {
+    color: white;
+    height: 130px;
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid rgb(255, 255, 255);
+    width: 25vw;
+    padding: 0px;
+    min-height: 130px;
+}
+

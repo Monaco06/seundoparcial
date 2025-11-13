@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+
+body{
+    height: 20vh;
+    background-color: #111;
+    color: #f5f5f5;
+}
+
+.contenedor{
+    border-radius: 2%;
+    margin-top: 20px;
+    background-color: #1a1a1a;
+    width: 800px;
+    height: 580px;
+    box-shadow: 0 0 10px #c29b00;
+}
+
+.demo-nav {
+    font-family: 'Oswald', sans-serif;
+}
+
+#logo{
+    width: 50px;
+    text-align: left;
+}
+
+.demo-header {
+    background: #1a1a1a;
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.demo-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fca311;
+    gap: 10px;
+    display: flex;
+}
+
+.demo-nav {
+    display: flex;
+    gap: 50px;
+}
+
+.demo-nav a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding: 5px 0;
+    transition: all 0.3s ease;
+}
+
+.demo-nav a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #FFD700;
+    transition: width 0.3s ease;
+}
+
+.demo-nav a:hover::after {
+    width: 100%;
+}
+
+.demo-nav a:hover {
+    color: #fca311;
+}
+
+#contactForm{
+    
+    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 90%;
+    max-width: 650px;
+    margin: 0 auto;
+    align-items: stretch;
+    
+}
+
+#nombre{
+    margin-top: 20px;
+}
+
+h1{
+    margin-top: 20px;
+    color:#fca311;
+}
+
+h2{
+    margin-top: 5px;
+}
+
+.form{
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#enviar{
+    background-color:#fca311;
+    padding: 10px;
+
+}
+
+#enviar:hover{
+    background-color: #b4802d;
+}
+
+#redes{
+    color: #fca311;
+}
+
+footer{
+    margin-top: 200px;
+    background-color: #0b0b0b;
+    text-align: center;
+    height: 20vh;
+    padding-top: 10px;
+}
+
+footer .columna {
+    height: 125px;
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid #333;
+    width: 25vw;
+    padding: 10px;
+    box-sizing: border-box;
+    
+    
+}
+
+
+@media (max-width: 768px) {
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .demo-header {
+        padding: 12px;
+        margin-top: 8px;
+    }
+
+    .demo-logo {
+        font-size: 1.1rem;
+    }
+
+    .demo-nav {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .demo-nav a {
+        padding: 6px 3px;
+        font-size: 0.95rem;
+    }
+
+
+    .contenedor {
+        width: 95%;
+        margin: 20px auto;
+        padding: 15px;
+        box-shadow: 0 0 8px #fca311;
+        height: auto;
+    }
+
+
+    #contactForm {
+        width: 100%;
+    }
+
+    input, textarea, button {
+        font-size: 1rem;
+    }
+
+footer {
+        margin-top: 150px;
+        background-color: #0b0b0b;
+        text-align: center;
+        height: auto;
+        padding-top: 10px;
+    }
+
+    footer .columna {
+        display: inline-block;
+        width: 50%;
+        border: 1px solid #222;
+        padding: 8px;
+        box-sizing: border-box;
+        margin-bottom: 8px;
+    }
+}

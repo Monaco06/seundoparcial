@@ -1,0 +1,25 @@
+var (obsoleto)
+
+let nombrevariable = (el let es reasignable, es decir al llamar la variable contiene un dato);
+
+
+const nombrevariable = (no es reasignable);
+
+consol.log(nombrevariable) (muestra datos en la consola)
+
+boolean:
+const verdadero= true;
+const falso = falso;
+
+let noDefinido; (sin definir)
+
+Array:
+
+const arreglo = [1,"dos",true,{clave : valor}];
+
+
+const objeto ={
+    clave: "valor"
+    numero: 123
+    funcion: function(){}
+}

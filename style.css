@@ -1,0 +1,108 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+div{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    text-align: center;
+    background-color: #3478ED;
+    background-image:url(img/blue-hd-1920-x-1080-background-blhilhybna0agsjy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1 {
+    background-color:#3478ED; 
+    opacity: 0.85;
+    margin: 0; 
+    text-align: center; 
+    color: white;
+    font-family: Story Script, sans-serif;
+    font-weight: 200;
+}
+
+
+.bienvenido {
+    margin: 40px;
+    color: black;
+    text-align: center;
+    font-family: Saira Condensed, sans-serif;
+    font-size: 25px;
+}
+
+nav ul{
+    margin-right: 15px;
+    text-align: right;
+    
+}
+
+
+nav ul li{
+    
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    height: 50px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    line-height: 50px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+#columna2 ul li{
+    text-align:center;
+    list-style-type:none;
+    width: 375px
+    
+}
+
+
+
+#columna3 ul li a img{
+    text-align: center;
+    width: 30px;
+    margin-top: 10px;
+}
+#columna3 ul li{
+    text-align: center;
+    list-style-type: none;
+    float: left;
+    margin-left: 73px;
+    
+}
+
+footer{
+    background-color: #3478ED;
+    text-align: center;
+    height: 20vh;
+    
+}
+
+footer .columna {
+    height: 150px;
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid black;
+    width: 25vw;
+    padding: 10px;
+}
+

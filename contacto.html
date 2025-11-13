@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <link rel="icon" type="Image" href="img/ChatGPT Image 9 nov 2025, 22_44_50.png">
+    <link rel="stylesheet" href="csscontacto.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto|F1Motion</title>
+</head>
+<body>
+    <header class="demo-header">
+                <div class="demo-logo" ><img id="logo" src="img/ChatGPT Image 9 nov 2025, 22_44_50.png" alt="">F1Motion</div>
+                <nav class="demo-nav">
+                    <a href="./blog.html">Inicio</a>
+                    <a href="./tablapuntos.html">Tabla Puntos</a>
+                    <a href="./contacto.html">Contacto</a>
+                </nav>
+                
+    </header>
+
+    <center>
+        <div class="contenedor">
+            <form id="contactForm">
+                <h1>Contacto</h1>
+                <h2>¿Tenés una consulta, sugerencia o querés colaborar con F1Motion? Dejanos tu mensaje.</h2>
+                <input id="nombre" class="form" type="text" name="nombre" placeholder="Tu nombre" required>
+                <input id="correo" class="form" type="email" name="email" placeholder="Tu correo electrónico" required>
+                <input id="asunto" class="form" type="text" name="asunto" placeholder="Asunto">
+                <textarea id="mensaje" class="form" name="mensaje" rows="5" placeholder="Tu mensaje..." required></textarea>
+                <button id="enviar" type="submit">Enviar</button>
+                
+            </form>
+            <br>
+            <p>O seguinos en:</p>
+            <a id="redes" href="#">Instagram  |</a>
+            <a id="redes" href="#">X/Twitter  |</a>
+            <a id="redes" href="#">Youtube</a>
+            
+        </div>
+    </center>
+
+
+
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function(e) {
+            e.preventDefault();
+            alert("✅ ¡Gracias! Tu mensaje fue enviado correctamente.");
+            this.reset();
+            });
+    </script>
+
+
+    <footer>
+            <div id="columna1" class="columna">
+                <h3>Tiago Monaco</h3>
+                <a>Hola, soy el creador de la pagina y tengo 19 años, Actualmente soy estudiante en Uade.</a>
+            </div>
+
+            <div id="columna2" class="columna">
+                <h3>Mapa del Sitio</h3>
+                <ul style="list-style: none;">
+                    
+                    <li><a id="f" href="#">Sobre Mi</a></li>
+                    <li><a id="f" href="./contacto.html">Contacto</a></li>
+                    <li><a href="./index.html">LinkTree</a></li>
+                    
+                </ul>
+            </div>
+
+
+    </footer>
+</body>
+</html>

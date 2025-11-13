@@ -1,0 +1,59 @@
+Clase dos:
+
+style= (estilo del txt) margin: (0 numero de margen) background-color: (elegis el color del txt) text-align: (center, es para centrar el txt en la pag)
+h1 (primer titulo) h2 segundo etcc
+
+<p txt 
+<a href="link" target=_blank (te abre el link en una nueva pestaña)
+<img scr="ubicacion del archivo" alt="nombre de la imagen"
+<br> (salto de linea)
+
+<section (seleccionas una parte de la pagina para yo ponerle color o lujos)
+<center> (para centrar imagen txt etc)
+
+<th rowspan="numero" (se extiende verticalmente)
+verticalaling top arriba botton abajo (ubicar el texto verticalmente)
+&nbsp (espacio en blanco)
+
+pagina w3scools (pagina para ver cosas de html)
+
+
+Clase cuatro:
+<section (es para separar seciones en los buscadores)
+
+en style margin es para los margenes
+en style padding es la para hacer margen dentro de un link
+
+pagina mdn para ver codigo de html
+
+
+<ol es para una lista sin ordenar
+<li (lista ordenada)
+<ul es para una lista ordenada
+
+
+CSS:
+body{
+    background-color: #f88989;
+}
+
+/*tipos de selectores
+
+tipo body p h1
+
+clases:
+class="nombre"
+id: id="nombre"
+
+Clase cinco:
+
+Fuentes:
+
+
+position: relative; (para mover la imagen de posicion, mueve la imagen en base donde estaba originalmente)
+img: nth-child(numero de imagen); (elije q imagen queres modificar, segun la posicion)
+position: absolut; (la imagen flota en algun embase, segun donde este)(busca un relative para posicionarse)
+
+
+
+        

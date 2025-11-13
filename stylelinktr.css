@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    height: 100vh;
+    background-image: url(img/fondoblanco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+div{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: blanchedalmond;
+    width: 500px;
+    height: 650px;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    border-radius: 30px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.8);
+}
+
+header{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+h2{
+    text-align: center;
+
+}
+
+#fotoperfil{
+    width: 75px;
+
+}
+
+#imginsta{
+    width: 30px;
+    text-align: center;
+    margin-inline: 30px;
+    margin-top: 30px;
+
+}
+
+nav ul{
+    text-align: center;
+    padding: 0 20px;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    margin: 12px 0;
+    text-align: center;
+}
+
+
+nav ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 8px 0;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    line-height: 50px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+nav ul li:hover a{
+    background-color: rgb(110, 174, 174);
+}
+
+
+.iconos{
+    width: 30px;
+    height: auto;
+    max-height: 30px;
+    display: inline-block;
+}
+
+#identi, #blog, #entrega{
+    width: 40px;
+    height: auto;
+    max-height: 40px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.iconos:hover{
+    transform: scale(1.1);
+}

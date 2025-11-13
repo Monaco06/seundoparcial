@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: #a4a4a4;
+    color: #f5f5f5;
+}
+
+.botonformulario{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.botonformulario:hover{
+    background-color: rgb(212, 212, 243);
+}
+
+#logo{
+    width: 50px;
+    text-align: left;
+}
+
+.demo-header {
+    background: #0D0D0D;
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.demo-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fca311;
+}
+
+.demo-nav {
+    display: flex;
+    gap: 50px;
+}
+
+.demo-nav a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding: 5px 0;
+    transition: all 0.3s ease;
+}
+
+.demo-nav a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #FFD700;
+    transition: width 0.3s ease;
+}
+
+.demo-nav a:hover::after {
+    width: 100%;
+}
+
+.demo-nav a:hover {
+    color: #fca311;
+}
+
+
+.tabla table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+.tabla{
+    margin-top: 20px;
+    text-align: left;
+    width: 70%;
+    padding-left: 20px;
+}
+
+th, td {
+    border: 2px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: black;
+    color: #fca311;
+    font-size: 1.1rem;
+}
+
+tr{
+    color: white;
+}
+
+tr:hover {
+    background-color: #cbcbcb;
+}
+
+#Ferrari{
+    background-color: #E80020;
+}
+
+#Mercedes{
+    background-color: #00E2C6;
+    color: black;
+}
+
+#McLaren{
+    background-color: #FF8000;
+}
+
+#Redbull{
+    background-color: #002353;
+}
+
+#Aston{
+    background-color: #229971;
+}
+
+#Alpine{
+    background-color: #0093D8;
+}
+
+#Williams{
+    background-color: #005AFF;
+}
+
+#Kick{
+    background-color: #00ff22;
+    color: black;
+}
+
+#Haas{
+    background-color: #eeeeee;
+    color: black;
+}
+
+#RB{
+    background-color: #0031ad;
+}
+
+main{
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+aside{
+    width: 30%;
+    background-color: #14213d;
+    color: #ffffff;
+    padding: 16px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+    height: 960px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#imagentag{
+    width: 250px;
+    display: block;
+    margin: 100px auto 0;
+    margin-top: 175px;
+}
+
+#linkanuncio{
+    display: block;
+    text-align: center;
+}
+
+footer{
+    margin-top: 150px;
+    background-color: #0b0b0b;
+    text-align: center;
+    height: auto;
+    padding-top: 10px;
+}
+
+footer .columna {
+    height: 125px;
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid #333;
+    width: 25vw;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.btn {
+        margin-top: 50px;
+        display: inline-block;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+        color: white;
+        text-decoration: none;
+}
+
+.btn-3d {
+    background: linear-gradient(145deg, #ff8a00, #e52e71);
+    box-shadow: 0 10px 0 #b22267, 0 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(0);
+    transition: all 0.2s ease;
+}
+
+.btn-3d:hover {
+            transform: translateY(3px);
+            box-shadow: 0 7px 0 #b22267, 0 10px 15px rgba(0, 0, 0, 0.3);
+        }
+
+.btn-3d:active {
+            transform: translateY(7px);
+            box-shadow: 0 3px 0 #b22267, 0 5px 10px rgba(0, 0, 0, 0.3);
+        }
+
+@media (max-width: 768px) {
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .demo-header {
+        padding: 12px;
+        margin-top: 8px;
+    }
+
+    .demo-logo {
+        font-size: 1.2rem;
+    }
+
+    .demo-nav {
+        gap: 12px;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .demo-nav a {
+        padding: 6px 0px;
+        font-size: 0.95rem;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 20px 12px;
+        gap: 12px;
+    }
+    .tabla {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    aside {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    footer {
+        margin-top: 100px;
+        background-color: #0b0b0b;
+        text-align: center;
+        height: auto;
+        padding-top: 10px;
+    }
+
+    footer .columna {
+        display: inline-block;
+        width: 50%;
+        border: 1px solid #222;
+        padding: 8px;
+        box-sizing: border-box;
+        margin-bottom: 8px;
+    }
+}
